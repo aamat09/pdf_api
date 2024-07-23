@@ -1,0 +1,21 @@
+{
+    "name": "amatsolutions/pdf_api",
+    "autoload": {
+        "psr-4": {
+            "Amatsolutions\\PdfApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Albin Amat",
+            "email": "aamatreyes@gmail.com"
+        }
+    ],
+    "require": {
+        "tecnickcom/tcpdf": "^6.7",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.7",
+        "setasign/fpdi": "^2.6",
+        "smalot/pdfparser": "^2.10"
+    }
+}
